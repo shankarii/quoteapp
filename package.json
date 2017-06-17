@@ -1,0 +1,22 @@
+{
+  "name": "quoteapp",
+  "version": "1.0.0",
+  "description": "A node app which returns wise quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashaswiNayak99/QuoteApp.git"
+  },
+  "author": "Yashaswi Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashaswiNayak99/QuoteApp/issues"
+  },
+  "homepage": "https://github.com/YashaswiNayak99/QuoteApp#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

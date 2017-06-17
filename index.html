@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wise Quote</title>
+        <style>
+            #quotebox{
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-top: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="quotebox"></div>
+    </body>
+    <script>
+        var quoteArray = [
+            "Time and tide waits for no man.",
+            "Penny wise pound foolish.",
+            "You can do anything, but not everything.",
+            "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+            "Courage is not the absence of fear, but rather the judgement that something else is more important than fear.",
+            "When hungry, eat your rice; when tired, close your eyes. Fools may laugh at me, but wise men will know what I mean.",
+            "Everyone is a genius at least once a year. The real geniuses simply have their bright ideas closer together."
+        ];
+        var quoteToday = quoteArray[parseInt((Math.random()*100)%7)];
+        document.getElementById("quotebox").innerHTML = "<h1>"+ quoteToday+"</h1>";
+    </script>
+</html>
