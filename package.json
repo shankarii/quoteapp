@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YashaswiNayak99/QuoteApp.git"
+    "url": "git+https://github.com/shankarii/quoteapp.git"
   },
-  "author": "Yashaswi Nayak",
+  "author": "Shankari Balaji",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YashaswiNayak99/QuoteApp/issues"
+    "url": "https://github.com/shankarii/quoteapp.git/issues"
   },
-  "homepage": "https://github.com/YashaswiNayak99/QuoteApp#readme",
+  "homepage": "https://github.com/shankarii/quoteapp.git#readme",
   "dependencies": {
     "express": "^4.15.2"
   }
